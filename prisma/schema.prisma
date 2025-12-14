@@ -27,6 +27,7 @@ model User {
   deposits      Deposit[]
   withdraws     Withdraw[]
   accounts      Account[]
+  sessions      Session[]
   
   @@map("users")
 }
